@@ -12,7 +12,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 0px;
 }
 
 html {
@@ -26,6 +26,8 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   text-align: center;
+  margin-right: 500px;
+  margin-left: 500px;
 }
 
 a {
@@ -44,45 +46,98 @@ h1 {
   font-size: 20px;
   font-weight: 700;
   line-height: 1.2;
+  margin: 15px 0px;
 }
 
 header {
   font-family: 'Libre Franklin', sans-serif;
   font-size: 16px;
+  margin: 15px 0px;
+}
+
+header a {
+  padding: 0px 5px;
 }
 
 .daily_recipe {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  margin-left: 115px;
+  margin-right: 115px;
+  padding: 1px;
 }
 
 h2 {
   font-family: 'Sorts Mill Goudy', serif;
   font-size: 24px;
   line-height: 1.2;
+  margin: 15px 0px;
 }
 
 p {
   font-family: 'Sorts Mill Goudy', serif;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.2;
+  margin: 15px 0px;
 }
 
 .author {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
+}
+
+div {
+  background-color: rgb(228, 227, 217);
+  padding: 20px;
+}
+
+div h1 {
+  text-align: left;
+  margin: 0px 0px;
+}
+
+hr {
+  height: 0;
+  border-top: 1px black solid;
+  border-style: solid;
+  margin-bottom: 10px;
+}
+
+.recipe {
+  background-color: white; 
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+div h2 {
+  padding: 15px;
+  border: 2px rgb(184, 184, 184) solid;
+  border-top: 0px;
+  margin: 0px 0px;
+}
+
+div img {
+  display: block;
 }
 
 .storage-recipe {
   font-family: 'Libre Franklin', sans-serif;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
 }
 
 footer {
   text-align: left;
+  background-color: black;
+  color: white;
+  padding: 20px;
 }
 
 .About {
@@ -94,6 +149,7 @@ footer {
 ul {
   font-family: 'Libre Franklin', sans-serif;
   font-size: 16px;
+  list-style-type: none;
 }
 
 /* ====================================
